@@ -25,7 +25,7 @@ public class FileManager {
 		return null;
 	}
 	
-	public static void writeCurrencyValuesToFile(CurrencyEntity currency) {
+	public static void writeCurrencyValuesToFile(CurrencyEntity currency, Map<String, Double> currencyMap) {
 		
 		// call calculted methods
 		
